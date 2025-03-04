@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from plot_functions import plot_radial_bar_chart
 from user_responses import collect_user_responses
 
@@ -12,3 +13,4 @@ for category, responses in user_responses.items():
 
 # Call the function to plot the radial bar chart
 plot_radial_bar_chart(list(average_scores.keys()), average_scores)
+
